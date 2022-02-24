@@ -53,7 +53,8 @@ class _HomeViewState extends State<HomeView> {
           },
         ),
       ),
-      body: CustomScrollView(
+      body: 
+      CustomScrollView(
         controller: _scrollController,
         slivers: const [
           SliverToBoxAdapter(
