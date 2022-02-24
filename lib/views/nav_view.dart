@@ -47,7 +47,7 @@ class _NavViewState extends State<NavView> {
                 child: Opacity(
                   opacity: 0.3,
                   child: BottomNavigationBar(
-                    backgroundColor: Colors.black,
+                    backgroundColor: Colors.black.withOpacity(0.3),
                     type: BottomNavigationBarType.fixed,
                     items: _icons
                         .map(
@@ -57,6 +57,7 @@ class _NavViewState extends State<NavView> {
                                 icon: Icon(
                                   icon,
                                   size: 30,
+                                  color: Colors.white,
                                 ),
                                 label: title),
                           ),
